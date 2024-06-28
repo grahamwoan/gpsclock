@@ -10,7 +10,7 @@
 #include <Wire.h>                  // to talk to the displays
 #include "Adafruit_LEDBackpack.h"  // for the displays
 
-const byte interruptPin = 2;             // i pps interrupt pin
+const byte interruptPin = 2;             // 1 pps interrupt pin
 static const int RXPin = 10, TXPin = 11; // serial connections to the gps module
 static const uint32_t GPSBaud = 9600;    // gps module serial speed
 float olight=15, light=15;  // light reading
